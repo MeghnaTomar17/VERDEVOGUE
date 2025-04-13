@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>VerdeVogue</title>
   <link rel="stylesheet" href="home.css" />
+  <script src="script.js"></script>
 </head>
 <body>
   <header>
@@ -12,22 +13,97 @@
       <div class="logo">VerdeVogue</div>
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
+        <li><a href="#app-features">Features</a></li>
+        <li><a href="#about-app">App</a></li>
         <li><a href="#collections">Collections</a></li>
+        <li><a href="#history">History</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
+    
     <section class="hero">
       <h1>Fashion that Cares</h1>
       <p>Where Sustainability Meets Style</p>
-      <button onclick="scrollToSection('collections')">Explore Now</button>
+      <a href="#collections" class="btn">Explore Now</a>
     </section>
   </header>
 
   <main>
+
+    <button id="scrollToTop" title="Go to top">↑</button>
+    
+
     <section id="about" class="about">
-      <h2>About VerdeVogue</h2>
-      <p>VerdeVogue is a sustainable fashion initiative that promotes eco-conscious clothing, ethical sourcing, and a cleaner future for the fashion industry.</p>
-    </section>
+        <h2>About Us</h2>
+        <p>
+            VerdeVogue is a brand that embodies the spirit of sustainable fashion. With a focus on environmentally friendly materials and ethical production practices, VerdeVogue aims to revolutionize the fashion industry by offering stylish, eco-conscious clothing. Our collections are designed with nature in mind, using recycled fabrics, organic materials, and upcycled garments to reduce waste and promote a greener future. At VerdeVogue, we believe that fashion should not only reflect personal style but also contribute to a positive impact on the planet. Join us on our mission to make the world a better place, one outfit at a time.
+        </p>
+      </section>
+
+      
+      
+      
+      <section id="about-app" class="about-app">
+        <h2>About Our App</h2>
+        <div class="app-info">
+          <p>VerdeVogue’s mobile app brings sustainable fashion right to your fingertips. With a focus on eco-conscious shopping, our app allows you to browse our full collection, make purchases, track your environmental impact, and stay connected with the latest in sustainable fashion trends. Whether you’re looking for upcycled garments, vegan leather options, or eco-friendly fabrics, VerdeVogue makes it easy to shop responsibly.</p>
+          <p>The app also offers a personalized shopping experience, tailoring product recommendations based on your preferences and past purchases. Additionally, it features a reward system for eco-friendly actions, like recycling old clothes and opting for sustainable materials. With VerdeVogue, you can shop with a clear conscience, knowing that your choices are contributing to a more sustainable fashion industry.</p>
+        </div>
+        <div class="app-image">
+          <img src="https://images.unsplash.com/photo-1625193784051-7b0b907b85bb?auto=format&fit=crop&w=600&q=80" alt="VerdeVogue App"/>
+        </div>
+        <div class="download-btns">
+          <a href="#" class="app-store-btn">Download on the App Store</a>
+          <a href="#" class="google-play-btn">Get it on Google Play</a>
+        </div>
+      </section>
+      
+      <section id="app-features" class="app-features">
+        <h2>Features of the VerdeVogue App</h2>
+        <div class="features-grid">
+          <div class="feature-item">
+            <img src="https://motivirus.com/wp-content/uploads/2022/04/image.jpg" alt="Eco-Friendly Shopping"/>
+            <h3>Eco-Friendly Shopping</h3>
+            <p>Browse our curated collection of sustainable fashion options, including recycled fabrics, vegan leather, and upcycled garments.</p>
+          </div>
+          <div class="feature-item">
+            <img src="https://www.visenze.com/wp-content/uploads/2022/10/3.-Personalized-Recommendations.jpg" alt="Personalized Recommendations"/>
+            <h3>Personalized Recommendations</h3>
+            <p>Receive personalized fashion suggestions based on your preferences and past purchases, ensuring that you always find the perfect fit.</p>
+          </div>
+          <div class="feature-item">
+            <img src="https://play-lh.googleusercontent.com/DkGKrY6P3nkIgUx-1aAEY6o3gHczsSehubVbfo2quzsPnyFMGWNRXxgpY2U1urZ2FA" alt="Eco-Rewards System"/>
+            <h3>Eco-Rewards System</h3>
+            <p>Earn rewards for eco-friendly actions, such as recycling old clothing and opting for sustainable materials, and redeem them for discounts.</p>
+          </div>
+          <div class="feature-item">
+            <img src="https://rjionline.org/wp-content/uploads/sites/2/2023/02/greenbarberl23020902-1024x576.png" alt="Impact Tracker"/>
+            <h3>Impact Tracker</h3>
+            <p>Track the positive environmental impact of your purchases and actions, such as how much carbon you’ve saved and waste you've reduced.</p>
+          </div>
+          <div class="feature-item">
+            <img src="https://i.pinimg.com/736x/e0/c5/81/e0c5814d9a2e4cc1a295fa33e2a9bb74.jpg" alt="Sustainable Fashion Tips"/>
+            <h3>Sustainable Fashion Tips</h3>
+            <p>Get expert advice on how to build a sustainable wardrobe, including tips on caring for eco-friendly garments and styling for longevity.</p>
+          </div>
+          <div class="feature-item">
+            <img src="https://media.vogue.fr/photos/5ca1e7f13d44a04a8bcc0628/master/w_2560,c_limit/GettyImages-1133874090.jpg" alt="Style Inspiration"/>
+            <h3>Style Inspiration</h3>
+            <p>Discover new outfit ideas and eco-conscious looks with our curated style inspiration, featuring sustainable fashion influencers and trends.</p>
+          </div>
+          <div class="feature-item">
+            <img src="https://style.me/wp-content/uploads/2021/06/virtual-fitting-room-two-mobile-phones.png" alt="Virtual Fitting Room"/>
+            <h3>Virtual Fitting Room</h3>
+            <p>Try on outfits virtually using our app’s augmented reality feature to see how the clothes look on you before making a purchase.</p>
+          </div>
+          <div class="feature-item">
+            <img src="https://i.pinimg.com/originals/d9/25/70/d9257078b79cf70f9d67e5c090f393dc.jpg" alt="Sustainable Brands Directory"/>
+            <h3>Sustainable Brands Directory</h3>
+            <p>Explore a directory of other sustainable fashion brands and ethical shops, so you can expand your eco-friendly wardrobe.</p>
+          </div>
+        </div>
+      </section>
+      
 
     <section id="collections" class="collections">
         <h2>Our Collections</h2>
@@ -47,6 +123,61 @@
             <h3>Upcycled Fashion</h3>
             <p>Old garments reborn with a modern twist.</p>
           </div>
+          <div class="item">
+            <img src="https://bananarepublicfactory.gapfactory.com/webcontent/0027/224/937/cn27224937.jpg" alt="Vegan Leather"/>
+            <h3>Vegan Leather</h3>
+            <p>Beautiful and cruelty-free alternatives to animal leather.</p>
+          </div>
+          <div class="item">
+            <img src="https://hips.hearstapps.com/hmg-prod/images/shoe-brands-65b3d3a66cf61.jpeg?crop=0.502xw:1.00xh;0.251xw,0&resize=1200:*" alt="Seasonal Sustainability"/>
+            <h3>Seasonal Sustainability</h3>
+            <p>Eco-friendly pieces designed for every season of the year.</p>
+          </div>
+          <div class="item">
+            <img src="https://d3au0sjxgpdyfv.cloudfront.net/a-44041909-td8s7cv9i8vm48h8.jpeg" alt="Handmade Artistry"/>
+            <h3>Handmade Artistry</h3>
+            <p>Locally crafted, one-of-a-kind fashion pieces.</p>
+          </div>
+          <div class="item">
+            <img src="https://i.etsystatic.com/23682581/r/il/c8e62f/2428740831/il_fullxfull.2428740831_o7y8.jpg" alt="Recycled Denim"/>
+            <h3>Recycled Denim</h3>
+            <p>Durable denim, reimagined from recycled materials for a circular fashion future.</p>
+          </div>
+          <div class="item">
+            <img src="https://media.greenmatters.com/brand-img/cmazNzKsl/1600x838/what-fabrics-are-boidegradable8-1609432025469.jpg" alt="Biodegradable Fabrics"/>
+            <h3>Biodegradable Fabrics</h3>
+            <p>Clothing that naturally decomposes, leaving no harmful impact on the environment.</p>
+          </div>
+          <div class="item">
+            <img src="https://i.pinimg.com/736x/fa/a0/1f/faa01f2c07d5366fb1dcde7d88be1dcf.jpg" alt="Fair Trade Fashion"/>
+            <h3>Fair Trade Fashion</h3>
+            <p>Ethically produced fashion ensuring fair wages and safe working conditions.</p>
+          </div>
+          <div class="item">
+            <img src="https://img.freepik.com/premium-photo/packaging-made-from-recycled-ocean-plastic_1007506-31377.jpg" alt="Recycled Ocean Plastics"/>
+            <h3>Recycled Ocean Plastics</h3>
+            <p>Clothing made from plastics rescued from the ocean, turning waste into wearable art.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="history" class="history-section">
+        <div class="container">
+          <h2>Our Story – The Birth of VerdeVogue</h2>
+          <p>
+            VerdeVogue began as a passion project sparked by a simple yet powerful question:
+“Can fashion look good, feel good, and do good for the planet?”
+
+Founded by a group of college students driven by climate awareness and creativity, VerdeVogue was born out of a desire to challenge the fast fashion cycle and give people a better alternative. We saw how quickly trends changed—and how much waste was left behind.
+
+What started as a sustainability-themed hackathon idea soon evolved into a mission:
+To make sustainable fashion not just a choice, but a lifestyle.
+
+We merged tech and consciousness—developing smart tools like TrashScan, WasteWatch, and BinSense—to help individuals make informed, impactful fashion choices every day. With VerdeVogue, our goal is to educate, empower, and inspire a new generation of shoppers to walk a little lighter on the earth, while staying stylish.
+
+This is more than a brand.
+It’s a movement. It’s a mindset. It’s VerdeVogue.
+          </p>
         </div>
       </section>
       
@@ -59,6 +190,6 @@
     </div>
   </footer>
 
-  <script src="script.js"></script>
+ 
 </body>
 </html>
