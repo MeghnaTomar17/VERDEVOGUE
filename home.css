@@ -112,4 +112,103 @@
     color: #5aa17f;
     text-decoration: none;
   }
+  /* About App Section */
+.about-app {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #f5f5f5;
+  }
   
+  .about-app h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .app-info p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #333;
+    margin-bottom: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .app-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .download-btns {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .app-store-btn, .google-play-btn {
+    background-color: #007aff;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.1rem;
+  }
+  
+  .app-store-btn:hover, .google-play-btn:hover {
+    background-color: #0059b2;
+  }
+/* App Features Section */
+.app-features {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #fff;
+  }
+  
+  .app-features h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #333;
+  }
+  
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .feature-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .feature-item:hover {
+    transform: translateY(-10px);
+  }
+  
+  .feature-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .feature-item h3 {
+    font-size: 1.8rem;
+    color: #007aff;
+    margin-bottom: 10px;
+  }
+  
+  .feature-item p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+  }
+    
